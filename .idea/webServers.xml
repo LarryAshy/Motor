@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="sftp://pi@192.168.178.37:22/usr/bin/python" name="sftp://pi@192.168.178.37:22/usr/bin/python">
+      <webServer id="sftp://pi@192.168.178.37:22/usr/bin/python" name="sftp://pi@192.168.178.37:22/usr/bin/python" url="http://192.168.178.37">
         <fileTransfer host="192.168.178.37" port="22" accessType="SFTP">
           <option name="port" value="22" />
         </fileTransfer>

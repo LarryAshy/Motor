@@ -6,17 +6,17 @@ GPIO.setmode(GPIO.BCM)
 
 
 GPIO.setup(4,GPIO.OUT)
-GPIO.setup(3,GPIO.OUT)
+GPIO.setup(17,GPIO.OUT)
 
 while True:
     GPIO.output(4, GPIO.LOW)
-    GPIO.output(3, GPIO.HIGH)
+    GPIO.output(17, GPIO.HIGH)
     time.sleep(0.5)
 
     GPIO.output(4, GPIO.HIGH)
-    GPIO.output(3, GPIO.LOW)
+    GPIO.output(17, GPIO.LOW)
     time.sleep(0.5)
-    GPIO.cleanup()
+    #GPIO.cleanup()
 
 #GPIO.output(4, GPIO.HIGH)
 #p=GPIO.PWM(4,50)
