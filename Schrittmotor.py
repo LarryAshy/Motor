@@ -3,10 +3,10 @@ import time
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
-coil_A_1_pin = 4  # pink
-coil_A_2_pin = 17  # orange
-coil_B_1_pin = 23  # blau
-coil_B_2_pin = 24  # gelb
+coil_A_1_pin = 4  # schwarz
+coil_A_2_pin = 17  # weiss
+coil_B_1_pin = 23  # orange
+coil_B_2_pin = 24  # rot
 # enable_pin   = 7 # Nur bei bestimmten Motoren benoetigt (+Zeile 24 und 30)
 
 # anpassen, falls andere Sequenz
